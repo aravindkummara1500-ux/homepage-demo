@@ -2,20 +2,93 @@
 <html>
 <head>
 <title>DevOps Demo</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    color: #00ffd5;
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255,255,255,0.2);
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.highlight-jenkins {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.highlight-github {
+    color: #00e676;
+    font-weight: bold;
+}
+
+.highlight-docker {
+    color: #2196f3;
+    font-weight: bold;
+}
+
+.highlight-alb {
+    color: #ff5252;
+    font-weight: bold;
+}
+</style>
+
 </head>
 
 <body>
 
-<h1>Hello Aravind 🚀</h1>
+<div class="container">
+    <div class="card">
 
-<p>This is a new application deployed using:</p>
+        <h1>Hello Aravind 🚀</h1>
 
-<ul>
-<li>GitHub CI/CD</li>
-<li>ECR</li>
-<li>ECS</li>
-<li>ALB</li>
-</ul>
+        <p>This application is deployed using modern DevOps tools:</p>
+
+        <ul>
+            <li><span class="highlight-github">GitHub</span> - Source Code Management</li>
+            <li><span class="highlight-jenkins">Jenkins</span> - CI/CD Pipeline</li>
+            <li><span class="highlight-docker">Docker</span> - Containerization</li>
+            <li><span class="highlight-alb">AWS ALB</span> - Load Balancer</li>
+        </ul>
+
+    </div>
+</div>
 
 </body>
 </html>
